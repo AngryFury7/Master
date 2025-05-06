@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AngryFury7/Master/static/css/main.a76d47f4.css",
+    "main.js": "/AngryFury7/Master/static/js/main.8765d6cb.js",
+    "static/js/453.f810153a.chunk.js": "/AngryFury7/Master/static/js/453.f810153a.chunk.js",
+    "index.html": "/AngryFury7/Master/index.html",
+    "main.a76d47f4.css.map": "/AngryFury7/Master/static/css/main.a76d47f4.css.map",
+    "main.8765d6cb.js.map": "/AngryFury7/Master/static/js/main.8765d6cb.js.map",
+    "453.f810153a.chunk.js.map": "/AngryFury7/Master/static/js/453.f810153a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a76d47f4.css",
+    "static/js/main.8765d6cb.js"
+  ]
+}
