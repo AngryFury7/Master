@@ -1,0 +1,80 @@
+.Page_wrapper
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: #e3e3e3;
+    font-family: inherit;
+    position: relative;
+}
+
+
+.top_container_wrapper
+{
+    height: 40px;
+    width: 100%;
+    position: absolute;
+    display: flex;align-items: center;justify-content: center;
+    font-size: 24px;
+    font-weight: 670;color : #000; 
+    border-bottom: 1px solid black;
+}
+
+
+.middle_container_wrapper
+{
+    position: absolute;
+    top : 50% ; left : 50% ; transform: translate(-50%,-50%);
+    width: 440px;
+    height: 520px;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.middle_container_wrapper > div 
+{
+    width : 73px; /* widht is per 5 and height is per 6 */
+    height: 75px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: default;
+    border-radius: 6px;
+
+}
+
+.keyboard_container_wrapper
+{
+    display: flex; align-items: center;justify-content: center;
+    position: absolute;bottom : 0px ; width: 100% ; height: 100px;
+    font-size: 20px;
+    color : black;
+}
+
+.keyboard_container_wrapper> div 
+{
+    padding : 7px 10px 7px 10px ; 
+    border: 1px solid black ;
+    border-radius: 4px;
+    cursor: not-allowed;
+}
+
+.contains
+{
+    background-color: rgb(102, 102, 192) !important;
+    box-shadow: 0 0 7px rgb(102, 102, 192);
+    border: none !important;
+}
+
+.correctPos 
+{
+    background-color: rgb(85, 190, 71) !important;
+    box-shadow: 0 0 3px rgb(85, 190, 71);
+    border: none !important;
+
+}
